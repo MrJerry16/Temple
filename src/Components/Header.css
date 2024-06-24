@@ -1,0 +1,14 @@
+.header {
+    display: flex; /* Enable flexbox for horizontal alignment */ /* Align content vertically within the header */
+  }
+  
+  .logo {
+    width: 10px; /* Set a fixed width for the image */
+    height: 10px; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add margin for spacing between image and text */
+  }
+  
+  .title {
+    font-weight: bold;
+    align-self: center; 
+  }  

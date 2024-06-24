@@ -1,0 +1,20 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
+  
+  .container .text-muted {
+    flex-grow: 1; /* Allow text-muted to grow and take remaining space */
+  }
+  
